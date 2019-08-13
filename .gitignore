@@ -1,0 +1,17 @@
+# Editor directories and files
+.idea
+*.iml
+
+# Build directories and files
+build
+gradle
+out
+gradlew
+gradlew.bat
+
+# Git directory
+.git
+
+# Other directories to ignore
+.DS_Store
+.gradle
