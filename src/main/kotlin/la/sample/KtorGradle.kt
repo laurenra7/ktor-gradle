@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
     val server = embeddedServer (Netty, 5000) {
         routing {
             get("/") {
-                call.respondText("Greetings, Earthlings! Kotlin, Ktor and Gradle salute you.", ContentType.Text.Html)
+                call.respondText("Greetings, Earthlings! Kotlin, Ktor and Gradle salute you now.", ContentType.Text.Html)
             }
         }
     }
