@@ -10,7 +10,8 @@ import io.ktor.server.netty.Netty
 
 fun main(args: Array<String>) {
     // For AWS ElasticBeanstalk, use port 5000
-    val server = embeddedServer (Netty, 5000) {
+    val server = embeddedServer (Netty, 8080) {
+//    val server = embeddedServer (Netty, 5000) {
         routing {
             get("/") {
                 call.respondText("Greetings, Earthlings! Kotlin, Ktor and Gradle salute you now.", ContentType.Text.Html)
